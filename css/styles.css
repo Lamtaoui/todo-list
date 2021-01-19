@@ -1,2 +1,57 @@
-# todo-list
-Code to practice git
+/*# todo-list*/
+/*Code to practice git*/
+
+
+.text-center {
+  text-align: center;
+}
+
+body{
+	background: #03dfff;
+}
+
+.bg-1 { 
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(246,250,245,1) 100%);
+}
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 7px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.addTask > input[type="text"]{
+	width:40%;
+	color:#333;
+	border:none;
+	background:none;	
+		
+}
+
+.tashPasFini,.tashFini{
+	margin:5px 0;
+	padding: 20px;
+}
+
+
+h3{
+	font-size:28%;
+}
+
+
+
+
+
+
+
+
+
+
+
