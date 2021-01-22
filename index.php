@@ -12,12 +12,12 @@ require 'db_connect.php';
 </head>
 <body class=bg-1>
     <div class= "container">
-        <h1 class="text-center" >To Do List</h1>
+        <h1 class="text-center" >Todo List</h1>
     </div>
     <div class="container-fluid text-center">
         <div class ="addTask" >
         <form action="app/add.php" method="POST" autocomplete="off">
-            <input type= "text"  name="title"  placeholder="Add a task">
+            <input type= "text"  name="title"  placeholder="Add your task">
             
             <button type="submit">Add</button>
             </form>

@@ -1,9 +1,3 @@
-reda reda <aderawado@gmail.com>
-	
-03:23 (il y a 0 minute)
-	
-À moi
-  
 <?php
 
 if(isset($_POST['id'])){
@@ -23,4 +17,5 @@ if(isset($_POST['id'])){
     header("Location: ../index.php");
 }
 
+?>
 
