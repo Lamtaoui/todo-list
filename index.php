@@ -21,6 +21,12 @@ require 'db_connect.php';
             
             <button type="submit">Add</button>
             </form>
+            <br/>
+            <form action="app/update.php" method="POST" autocomplete="off">
+            <input type= "text"  name="targetName"  placeholder="Task to modify">
+            <input type= "text"  name="newName"  placeholder="New task name">
+            <button type="submit">Modify</button>
+            </form>
             <?php 
           $todos = $conn->query("SELECT * FROM todos ORDER BY id DESC");
        ?>
