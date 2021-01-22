@@ -1,8 +1,8 @@
 <?php 
 
-$sName = "localhost";
+$sName = "mysql";
 $uName = "root";
-$pass = "";
+$pass = "password";
 $db_name = "to_do_list";
 
 try {
