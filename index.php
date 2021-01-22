@@ -36,7 +36,7 @@ require 'db_connect.php';
                     <form action="app/remove.php" method="POST" autocomplete="off">
                 <li> <?php echo $todo['title'] ?>
                
-                    <button type="submit" name="id" value="<?php echo $todo['id'] ?>"><span class="glyphicon glyphicon-trash"  aria-hidden="true"></span></button>
+                    <button class="btn" type="submit" name="id" value="<?php echo $todo['id'] ?>"><span class="glyphicon glyphicon-trash"  aria-hidden="true"></span></button>
                     
                 </li>
                 </form>
