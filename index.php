@@ -7,7 +7,7 @@ require 'db_connect.php';
 
 <head>
     <title>To Do List</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body class=bg-1>
@@ -36,7 +36,7 @@ require 'db_connect.php';
                     <form action="app/remove.php" method="POST" autocomplete="off">
                 <li> <?php echo $todo['title'] ?>
                
-                    <button type="submit" name="id" value="<?php echo $todo['id'] ?>"><span class="glyphicon glyphicon-trash"  aria-hidden="true"></span></button>
+                    <button class="btn" type="submit" name="id" value="<?php echo $todo['id'] ?>"><span class="glyphicon glyphicon-trash"  aria-hidden="true"></span></button>
                     
                 </li>
                 </form>
